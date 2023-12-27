@@ -60,6 +60,7 @@ spec:
   source:
     repoURL: registry.gitlab.com/mahdad.ghasemian/argocd-tutorial:latest
     targetRevision: registery
+    path: /
   destination:
     server: https://kubernetes.default.svc
     namespace: sample-ui
