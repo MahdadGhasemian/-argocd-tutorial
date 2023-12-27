@@ -1,2 +1,2 @@
-# -argocd-tutorial
+# argocd-tutorial
 A simple demo
