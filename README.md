@@ -25,8 +25,6 @@ kubectl apply -f application.yml
 
 #### Links
 
-* ArgoCD Configuration: [https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/)
+- ArgoCD Configuration: [https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/)
 
-
-
-
+- ArgoCD Example Apps: [https://github.com/argoproj/argocd-example-apps](https://github.com/argoproj/argocd-example-apps)
