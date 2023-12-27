@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-ui
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: sample-ui
+  template:
+    metadata:
+      labels:
+        app: sample-ui
+    spec:
+      containers:
+        - name: sample-ui
+          image: registry.gitlab.com/mahdad.ghasemian/argocd-tutorial:latest
+          ports:
+            - containerPort: 80
+      imagePullSecrets:
+        - name: gitlab-creds-secret
