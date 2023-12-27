@@ -19,6 +19,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 # run application
 kubectl apply -f application.yaml
 
+# run guest service
+kubectl port-forward service/guestbook-ui 10080:10080 -n guestbook
+
 ```
 
 </br>
