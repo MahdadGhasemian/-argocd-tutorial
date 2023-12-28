@@ -58,7 +58,7 @@ spec:
   project: default
 
   source:
-    repoURL: registry.gitlab.com/mahdad.ghasemian/argocd-tutorial:latest
+    repoURL: https://github.com/MahdadGhasemian/argocd-tutorial.git
     targetRevision: registery
     path: sample-ui
   destination:
