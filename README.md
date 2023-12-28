@@ -23,6 +23,9 @@ kubectl apply -f application.yaml
 # run guest service
 minikube service guestbook-ui --url -n guestbook
 
+kubectl port-forward service/sample-ui 8081:80 -n sample-ui
+
+
 ```
 
 </br>
