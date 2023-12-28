@@ -19,4 +19,4 @@ spec:
           ports:
             - containerPort: 80
       imagePullSecrets:
-        - name: gitlab-creds-secret
+        - name: gitlab-registry-credentials

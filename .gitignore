@@ -1,0 +1,4 @@
+.dockerconfigjson
+*/.dockerconfigjson
+registry-credentials.yaml
+*/registry-credentials.yaml

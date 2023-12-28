@@ -17,6 +17,7 @@ kubectl port-forward svc/argocd-server 8080:443 -n argocd
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 --decode && echo
 
 # run application
+kubectl apply -f registry-credentials.yaml -n argocd
 kubectl apply -f application.yaml
 
 # run guest service
