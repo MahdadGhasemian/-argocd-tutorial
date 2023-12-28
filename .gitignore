@@ -2,3 +2,8 @@
 */.dockerconfigjson
 registry-credentials.yaml
 */registry-credentials.yaml
+
+.dockerconfigjson2
+*/.dockerconfigjson2
+registry-credentials2.yaml
+*/registry-credentials2.yaml

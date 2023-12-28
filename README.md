@@ -18,6 +18,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 # run application
 kubectl apply -f registry-credentials.yaml -n argocd
+kubectl apply -f registry-credentials2.yaml -n argocd
 kubectl apply -f application.yaml
 
 # run guest service
